@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+<%@ page errorPage="error500.jsp" %> <%--에러페이지 링크 --%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>에러페이지</title>
+</head>
+<body>
+	<%
+		int s = 100/0;
+	%>
+</body>
+</html>
